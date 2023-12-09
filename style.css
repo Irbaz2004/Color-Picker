@@ -1,0 +1,124 @@
+*{
+    margin: 0 0;
+    padding:  0 0;
+    box-sizing: border-box;
+}
+
+
+
+ .col{
+    text-align: center;
+    
+
+    
+ }
+
+ .a{
+    height: 21vh;
+    max-width: 20%;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 2%;
+    background-color: white;
+    box-shadow: 1px 12px 20px black;
+ }
+
+ input{
+    margin-top: 8%;
+ }
+
+ #cap{
+    height: 40vh;
+    width: 80%;
+    padding: 1% 2%;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 4%;
+    border: 3px solid white;
+    text-align: center;
+ }
+
+ p{
+    font-weight: bold;
+    padding:10px 20px;
+ }
+
+
+ h1{
+    font-size: 40px;
+    text-shadow: 4px 4px 10px white;
+ }
+
+
+ .f{
+    margin-top: 5%;
+ }
+
+
+
+
+
+
+ @media(max-width:500px){
+    .a {
+        height: 26vh;
+        max-width: 52%;
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 2%;
+        background-color: white;
+        box-shadow: 1px 12px 20px black;
+    }
+    #cap {
+        height: 40vh;
+        width: 80%;
+        padding: 1% 2%;
+        font-weight: bold;
+        font-size: 21px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-top: 4%;
+        border: 3px solid white;
+        text-align: center;
+    }
+
+
+ }
+
+
+ @media(max-width:348px){
+    .a {
+        height: 26vh;
+        max-width: 63%;
+        text-align: center;
+        margin-left: 19%;
+        margin-top: 2%;
+        background-color: white;
+        box-shadow: 1px 12px 20px black;
+    }
+ }
+
+ @media(max-width:310px){
+    #cap {
+        height: 30vh;
+        width: 87%;
+        padding: 1% 2%;
+        font-weight: bold;
+        font-size: 18px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-top: 18%;
+        border: 3px solid white;
+        text-align: center;
+    }
+    .a {
+        height: 26vh;
+        max-width: 63%;
+        text-align: center;
+        margin-left: 19%;
+        margin-top: 10%;
+        background-color: white;
+        box-shadow: 1px 12px 20px black;
+    }
+    
+    
+ }
